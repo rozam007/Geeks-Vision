@@ -1,0 +1,97 @@
+/* Swiper Styles  */
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+
+.swiperWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+
+.swiperSlide {
+  /* flex-shrink: 0; */
+  /* margin-right: 30px; */
+  width: auto;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+
+.prev::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(
+    90deg,
+    #0f0f0f 65.02%,
+    hsla(0, 0%, 6%, 0) 140.05%
+  );
+}
+
+.next::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(90deg, hsla(0, 0%, 6%, 0) -40%, #0f0f0f 53.05%);
+}
+
+.clientCard {
+  background: var(--card-bg);
+  border-radius: 10px;
+  padding: 40px 35px 35px;
+  margin-bottom: 50px;
+  position: relative;
+  transition: 0.35s;
+  width: 100%;
+}
+
+/* Tooltip after Card  */
+
+/* .clientCard::after {
+  content: "";
+  width: 60px;
+  height: 28px;
+  background: #1e1e1e;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -27px;
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  opacity: 1;
+  transition: 0.35s;
+} */
+
+@media screen and (max-width: 576px) {
+  .clientCard {
+    /* border: 2px solid mediumturquoise; */
+    padding: 35px 20px 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .swiperSlide {
+    /* border: 1px solid yellow; */
+    width: 454px !important;
+  }
+}

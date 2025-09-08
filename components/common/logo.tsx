@@ -1,0 +1,45 @@
+import React from "react";
+
+const Logo = ({width, height}: {width: string, height: string}) => {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 200 200"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      {/* Outer hexagon (tech shape) */}
+      <polygon
+        points="100,20 170,60 170,140 100,180 30,140 30,60"
+        stroke="url(#grad1)"
+        strokeWidth="6"
+        fill="none"
+      />
+
+      {/* Inner circuit-like connections */}
+      <circle
+        cx="100"
+        cy="100"
+        r="25"
+        stroke="url(#grad1)"
+        strokeWidth="5"
+        fill="none"
+      />
+      <line x1="100" y1="75" x2="100" y2="40" stroke="url(#grad1)" strokeWidth="4" />
+      <line x1="125" y1="100" x2="160" y2="100" stroke="url(#grad1)" strokeWidth="4" />
+      <line x1="100" y1="125" x2="100" y2="160" stroke="url(#grad1)" strokeWidth="4" />
+      <line x1="75" y1="100" x2="40" y2="100" stroke="url(#grad1)" strokeWidth="4" />
+
+      {/* Gradient definition */}
+      <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#00C9FF" stopOpacity="1" />
+          <stop offset="100%" stopColor="#92FE9D" stopOpacity="1" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export default Logo;

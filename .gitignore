@@ -1,0 +1,83 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.obj
+*.lib
+*.ncb
+*.suo
+*.user
+*.pdb
+*.ilk
+*.idb
+*.opt
+*.aps
+*.bsc
+*.sbr
+*.res
+*.pch
+*.ipch
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Node.js specific files
+node_modules/
+npm-debug.log*
+.next/
+
+# Python specific files
+__pycache__/
+*.pyc
+.env/
+venv/
+
+# Ruby specific files
+.bundle/
+vendor/bundle/
+
+# Maven specific files
+target/
+
+# Gradle specific files
+.gradle/
+build/
+
+# Composer specific files (PHP)
+vendor/
+
+# Environment variables files
+.env
+.env.local
+.env.*.local
+
+# Sensitive files
+*.key
+*.pem
+*.p12
+
+# Other common ignore patterns
+temp/
+dist/
+build/
+coverage/

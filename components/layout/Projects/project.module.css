@@ -1,0 +1,150 @@
+.projects {
+  background-image: url(/project-bg.png), linear-gradient(#1e1c22, #1e1c22);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.projectContent {
+  background-image: url(/project-content-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+/* Swiper Styles  */
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+
+.swiperWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+
+.swiperSlide {
+  /* flex-shrink: 0; */
+  /* margin-right: 30px; */
+  width: auto;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+
+/* Card Content  */
+
+.slideContent {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #b5b5b5;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.slideContent::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: var(--theme-color);
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+}
+
+/* styles/globals.css */
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.modalEnter {
+  animation: slide-down 0.5s ease-out forwards;
+}
+
+.modalExit {
+  animation: slide-up 0.5s ease-out forwards;
+}
+
+.overlayEnter {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+.overlayExit {
+  animation: fade-out 0.5s ease-out forwards;
+}
+
+
+/* components/Tabs.module.css */
+.tabBar {
+  /* margin-bottom: 16px; */
+  padding-bottom: 5px;
+}
+
+.tabButton {
+  font-weight: 600;
+  border-radius: 6px;
+  /* margin: 0 4px; */
+  transition: all 0.3s ease-in-out;
+}
+
+.tabButton:hover {
+  background: var(--theme-color);
+  color: white;
+}
+
+
+.noScroll {
+  overflow: hidden;
+}

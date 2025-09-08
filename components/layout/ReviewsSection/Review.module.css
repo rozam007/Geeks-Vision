@@ -1,0 +1,112 @@
+.reviewSection {
+  display: flex;
+}
+
+.counterArea ul li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.counterArea ul li:not(:last-child)::after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.reviewWrapper {
+  display: flex;
+  gap: 25px;
+}
+
+.review {
+  padding: 15px 25px 10px;
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  border-radius: 10px;
+  max-width: 168px;
+}
+
+.review ul li:not(:last-child) {
+  color: #f9bf00;
+  font-size: 10px;
+}
+
+@media (max-width: 1400px) {
+  .customerReviews {
+    max-width: 450px;
+    padding: 70px 35px;
+  }
+  .counterArea {
+    display: flex;
+    align-items: center;
+  }
+  .statsContent h3 {
+    font-size: 32px;
+  }
+  .statsContent span {
+    font-size: 18px;
+  }
+  .statsContent p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .reviewSection {
+    flex-direction: column;
+  }
+  .customerReviews {
+    max-width: 100% !important;
+  }
+  .reviewWrapper {
+    justify-content: left;
+  }
+  .counterArea {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  /* .statsContent > div {
+    justify-content: center;
+  } */
+}
+
+@media (max-width: 786px) {
+  .counterArea ul {
+    flex-wrap: wrap;
+  }
+  .counterArea ul li {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .counterArea ul li:not(:last-child)::after {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .counterArea ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .counterArea ul li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .reviewWrapper {
+    flex-wrap: wrap;
+  }
+  .review {
+    padding: 10px 10px 5px;
+  }
+  .customerReviews {
+    max-width: 450px;
+    padding: 70px 12px;
+  }
+}

@@ -1,0 +1,33 @@
+.hero {
+  background-image: url(/banner.png), linear-gradient(#1e1c22, #1e1c22);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.socialLinks ul li:not(:first-child)::after {
+  content: "";
+  height: 2.5px;
+  width: 2.5px;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding-right: 15px;
+  }
+  .bannerBtn {
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1035px) {
+  .bannerBtn {
+    gap: 15px;
+  }
+}

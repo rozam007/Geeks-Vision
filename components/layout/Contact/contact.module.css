@@ -1,0 +1,21 @@
+@keyframes showBorderTop {
+  0% {
+    border-top: 1px solid var(--theme-color);
+  }
+  100% {
+    border-top: 1px solid var(--theme-color);
+    /* border-top: none; */
+  }
+}
+
+.showBorderTop {
+  animation: showBorderTop 700ms forwards;
+}
+
+/* Form bg  */
+
+.form {
+  background-image: url(/form-bg.png), linear-gradient(#161a1e, #161a1e);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
