@@ -110,7 +110,7 @@ const Modal: React.FC<ModalProps> = ({ slideId, items, isOpen, onClose }) => {
               >
                 {item.firstheading}
               </button>
-              <button
+              {/* <button
                 className={`py-2 px-4 text-xs sm:text-sm md:text-base ${
                   activeTab === 2
                     ? "bg-themeColor text-whiteColor"
@@ -119,7 +119,7 @@ const Modal: React.FC<ModalProps> = ({ slideId, items, isOpen, onClose }) => {
                 onClick={() => setActiveTab(2)}
               >
                 {item.secondheading}
-              </button>
+              </button> */}
               <button
                 className={`py-2 px-4 text-xs sm:text-sm md:text-base ${
                   activeTab === 3

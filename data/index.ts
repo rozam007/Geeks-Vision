@@ -28,6 +28,9 @@ import project2 from "/public/project02.svg";
 import project3 from "/public/project03.svg";
 import project4 from "/public/project04.svg";
 import project5 from "/public/project05.svg";
+import btms from "/public/btms.png"
+import carsale from "/public/carsale.png"
+import scoprichie from "/public/scoprichiethumbnail.png"
 
 // import model1 from "/public/model01.svg";
 // import model2 from "/public/model02.svg";
@@ -358,37 +361,30 @@ export const clients = [
 export const projects = [
   {
     id: 1,
-    image: project4,
-    title: "Web Development",
-    projectname: "Streamlining IT Infrastructure",
+    image: btms,
+    title: "Web Application",
+    projectname: "Human Resource Management System",
     icon: arrowRight,
   },
   {
     id: 2,
-    image: project5,
-    title: "Web Development",
-    projectname: "Transforming Customer Experience",
+    image: carsale,
+    title: "Web Application",
+    projectname: "Carsale",
     icon: arrowRight,
   },
   {
     id: 3,
-    image: project1,
-    title: "Web Development",
-    projectname: "Scaling Agile Development",
+    image: carsale,
+    title: "Web3 Blockchain",
+    projectname: "Initial Coin Offering",
     icon: arrowRight,
   },
-  {
+    {
     id: 4,
-    image: project2,
-    title: "Web Development",
-    projectname: "Optimizing IT Operations",
-    icon: arrowRight,
-  },
-  {
-    id: 5,
-    image: project3,
-    title: "Web Development",
-    projectname: "Maximizing Efficiency With DevOps",
+    image: carsale,
+    title: "Web Application",
+    projectname: "Investigation App",
     icon: arrowRight,
   },
 ];
@@ -396,88 +392,44 @@ export const projects = [
 export const modal = [
   {
     id: 1,
-    modalImage: model6,
-    firstheading: "Overview1",
-    overviewdescritpion: `“The Ethereum network had been plagued by extreme congestion due to increased usage and low throughput. And, as more and more transactions need to be confirmed, the price of each transaction (or “gas fee”), increases - making them not just slow, but costly.
-One of the most promising examples of those are optimistic rollups – smart contracts that execute transactions off-chain and post only the results of computations to their base layers. Thanks to that, calculations are done in a faster and cheaper way.
-Arbitrum is a layer 2 (L2) scaling solution and a leading web3 project in the optimistic rollup space. It relies on the robustness of Ethereum for its security, and adds a greatly increased transaction capacity at a much lower cost than its base layer.
-This L2 chain was initially constrained by the slower and less energy-efficient Proof-of-Work consensus of Ethereum - but that has changed with The Merge, an upgrade that turned Ethereum into a Proof-of-Stake blockchain.
-Arbitrum gives web3 developers tools to build apps and solutions that are not only faster and cheaper in use but also compatible with other Ethereum-based tools.” ------------------2--------------
-“The Ethereum network had been plagued by extreme congestion due to increased usage and low throughput. And, as more and more transactions need to be confirmed, the price of each transaction (or “gas fee”), increases - making them not just slow, but costly.
-One of the most promising examples of those are optimistic rollups – smart contracts that execute transactions off-chain and post only the results of computations to their base layers. Thanks to that, calculations are done in a faster and cheaper way.
-Arbitrum is a layer 2 (L2) scaling solution and a leading web3 project in the optimistic rollup space. It relies on the robustness of Ethereum for its security, and adds a greatly increased transaction capacity at a much lower cost than its base layer.
-This L2 chain was initially constrained by the slower and less energy-efficient Proof-of-Work consensus of Ethereum - but that has changed with The Merge, an upgrade that turned Ethereum into a Proof-of-Stake blockchain.
-Arbitrum gives web3 developers tools to build apps and solutions that are not only faster and cheaper in use but also compatible with other Ethereum-based tools.” 
-`,
-    secondheading: "Features",
-    featuresdescription: "Good, healthy and fit",
+    modalImage: btms,
+    firstheading: "Overview",
+    overviewdescritpion: "The HRMS is a comprehensive solution automating employee profiles, attendance, payroll, recruitment, and performance evaluations. It streamlines workforce management with structured request forms for leaves, reimbursements, and overtime. The system automates financial tracking, client/vendor invoicing, and recruitment workflows while integrating candidate assessments. Additionally, it features an employee evaluation platform, empowering managers with data-driven insights for salary increments and career growth.",
+    // secondheading: "Features",
+    // featuresdescription: "Good, healthy and fit",
     thirdheading: "Technologies",
-    techdescriptions: `“The Ethereum network had been plagued by extreme congestion due to increased usage and low throughput. And, as more and more transactions need to be confirmed, the price of each transaction (or “gas fee”), increases - making them not just slow, but costly.
-One of the most promising examples of those are optimistic rollups – smart contracts that execute transactions off-chain and post only the results of computations to their base layers. Thanks to that, calculations are done in a faster and cheaper way.
-Arbitrum is a layer 2 (L2) scaling solution and a leading web3 project in the optimistic rollup space. It relies on the robustness of Ethereum for its security, and adds a greatly increased transaction capacity at a much lower cost than its base layer.
-This L2 chain was initially constrained by the slower and less energy-efficient Proof-of-Work consensus of Ethereum - but that has changed with The Merge, an upgrade that turned Ethereum into a Proof-of-Stake blockchain.
-Arbitrum gives web3 developers tools to build apps and solutions that are not only faster and cheaper in use but also compatible with other Ethereum-based tools.” ------------------2--------------
-“The Ethereum network had been plagued by extreme congestion due to increased usage and low throughput. And, as more and more transactions need to be confirmed, the price of each transaction (or “gas fee”), increases - making them not just slow, but costly.
-One of the most promising examples of those are optimistic rollups – smart contracts that execute transactions off-chain and post only the results of computations to their base layers. Thanks to that, calculations are done in a faster and cheaper way.
-Arbitrum is a layer 2 (L2) scaling solution and a leading web3 project in the optimistic rollup space. It relies on the robustness of Ethereum for its security, and adds a greatly increased transaction capacity at a much lower cost than its base layer.
-This L2 chain was initially constrained by the slower and less energy-efficient Proof-of-Work consensus of Ethereum - but that has changed with The Merge, an upgrade that turned Ethereum into a Proof-of-Stake blockchain.
-Arbitrum gives web3 developers tools to build apps and solutions that are not only faster and cheaper in use but also compatible with other Ethereum-based tools.” 
-`,
+    techdescriptions: "React.js, javascript, material ui, redux, react queries, axios, react charts, and JWT authentication.",
   },
+
+  
   {
     id: 2,
-    modalImage: model7,
-    firstheading: "Overview2",
-    overviewdescritpion: `“The Ethereum network had been plagued by extreme congestion due to increased usage and low throughput. And, as more and more transactions need to be confirmed, the price of each transaction (or “gas fee”), increases - making them not just slow, but costly.
-One of the most promising examples of those are optimistic rollups – smart contracts that execute transactions off-chain and post only the results of computations to their base layers. Thanks to that, calculations are done in a faster and cheaper way.
-Arbitrum is a layer 2 (L2) scaling solution and a leading web3 project in the optimistic rollup space. It relies on the robustness of Ethereum for its security, and adds a greatly increased transaction capacity at a much lower cost than its base layer.
-This L2 chain was initially constrained by the slower and less energy-efficient Proof-of-Work consensus of Ethereum - but that has changed with The Merge, an upgrade that turned Ethereum into a Proof-of-Stake blockchain.
-Arbitrum gives web3 developers tools to build apps and solutions that are not only faster and cheaper in use but also compatible with other Ethereum-based tools.”`,
-    secondheading: "Features",
-    featuresdescription: "Good, healthy and fit",
+    modalImage: carsale,
+    firstheading: "Overview",
+    overviewdescritpion: "The Carsale User Frontend provides a seamless vehicle browsing experience. Users can explore and filter vehicles, register via OTP, manage wishlists, leave reviews, track recently viewed vehicles, and contact showroom owners via WhatsApp. Geolocation detects the user’s country for relevant listings.",
+    // secondheading: "Features",
+    // featuresdescription: "Good, healthy and fit",
     thirdheading: "Technologies",
-    techdescriptions: "MERN Stack",
+    techdescriptions: "Next.js, React.js, TailwindCSS, React Redux, React Queries, React Hook Forms, JWT authentication, Cloudinary for images and optimized API calls for performance.",
   },
   {
     id: 3,
-    modalImage: model3,
-    firstheading: "Overview3",
-    overviewdescritpion: `“The Ethereum network had been plagued by extreme congestion due to increased usage and low throughput. And, as more and more transactions need to be confirmed, the price of each transaction (or “gas fee”), increases - making them not just slow, but costly.
-One of the most promising examples of those are optimistic rollups – smart contracts that execute transactions off-chain and post only the results of computations to their base layers. Thanks to that, calculations are done in a faster and cheaper way.
-Arbitrum is a layer 2 (L2) scaling solution and a leading web3 project in the optimistic rollup space. It relies on the robustness of Ethereum for its security, and adds a greatly increased transaction capacity at a much lower cost than its base layer.
-This L2 chain was initially constrained by the slower and less energy-efficient Proof-of-Work consensus of Ethereum - but that has changed with The Merge, an upgrade that turned Ethereum into a Proof-of-Stake blockchain.
-Arbitrum gives web3 developers tools to build apps and solutions that are not only faster and cheaper in use but also compatible with other Ethereum-based tools.”`,
-    secondheading: "Features",
-    featuresdescription: "Good, healthy and fit",
+    modalImage: model6,
+    firstheading: "Overview",
+    overviewdescritpion: "The website presale.blockrithms.com is a Web3-based ICO (Initial Coin Offering) platform designed for token presales. It allows users to participate in early-stage fundraising by connecting their crypto wallets and purchasing tokens before public listing. The platform focuses on decentralization, transparency, and accessibility, offering a streamlined interface for investors to securely contribute using blockchain technology. Its purpose is to support project launches by providing early supporters with token allocations, while leveraging smart contracts to ensure trust, automation, and secure transactions throughout the presale process.",
+    // secondheading: "Features",
+    // featuresdescription: "Good, healthy and fit",
     thirdheading: "Technologies",
-    techdescriptions: "MERN Stack",
+    techdescriptions: "React.js, tailwindcss, wagmi, web3, solidity and smart contract.",
   },
   {
     id: 4,
-    modalImage: model4,
-    firstheading: "Overview4",
-    overviewdescritpion: `“The Ethereum network had been plagued by extreme congestion due to increased usage and low throughput. And, as more and more transactions need to be confirmed, the price of each transaction (or “gas fee”), increases - making them not just slow, but costly.
-One of the most promising examples of those are optimistic rollups – smart contracts that execute transactions off-chain and post only the results of computations to their base layers. Thanks to that, calculations are done in a faster and cheaper way.
-Arbitrum is a layer 2 (L2) scaling solution and a leading web3 project in the optimistic rollup space. It relies on the robustness of Ethereum for its security, and adds a greatly increased transaction capacity at a much lower cost than its base layer.
-This L2 chain was initially constrained by the slower and less energy-efficient Proof-of-Work consensus of Ethereum - but that has changed with The Merge, an upgrade that turned Ethereum into a Proof-of-Stake blockchain.
-Arbitrum gives web3 developers tools to build apps and solutions that are not only faster and cheaper in use but also compatible with other Ethereum-based tools.”`,
-    secondheading: "Features",
-    featuresdescription: "Good, healthy and fit",
+    modalImage: scoprichie,
+    firstheading: "Overview",
+    overviewdescritpion: "The website Scoprichie (by Tarricone Investigazioni) showcases a professional private investigation service specializing in online identity verification. Active since 1978, the agency blends decades of investigative experience with modern digital intelligence tools like OSINT and SOCMINT. It targets cases such as romance scams, grooming risks, suspected infidelity, double lives, or reputation concerns. The process is simple: secure online payment, a confidential questionnaire, digital contract signing, and delivery of a detailed encrypted report within 24–48 hours. With over 5,000 cases resolved, 98% client satisfaction, and 24/7 support, the service emphasizes discretion, reliability, and confidentiality, currently offered at a promotional rate of €380 (VAT included).",
+    // secondheading: "Features",
+    // featuresdescription: "Good, healthy and fit",
     thirdheading: "Technologies",
-    techdescriptions: "MERN Stack",
-  },
-  {
-    id: 5,
-    modalImage: model5,
-    firstheading: "Overview5",
-    overviewdescritpion: `“The Ethereum network had been plagued by extreme congestion due to increased usage and low throughput. And, as more and more transactions need to be confirmed, the price of each transaction (or “gas fee”), increases - making them not just slow, but costly.
-One of the most promising examples of those are optimistic rollups – smart contracts that execute transactions off-chain and post only the results of computations to their base layers. Thanks to that, calculations are done in a faster and cheaper way.
-Arbitrum is a layer 2 (L2) scaling solution and a leading web3 project in the optimistic rollup space. It relies on the robustness of Ethereum for its security, and adds a greatly increased transaction capacity at a much lower cost than its base layer.
-This L2 chain was initially constrained by the slower and less energy-efficient Proof-of-Work consensus of Ethereum - but that has changed with The Merge, an upgrade that turned Ethereum into a Proof-of-Stake blockchain.
-Arbitrum gives web3 developers tools to build apps and solutions that are not only faster and cheaper in use but also compatible with other Ethereum-based tools.”`,
-    secondheading: "Features",
-    featuresdescription: "Good, healthy and fit",
-    thirdheading: "Technologies",
-    techdescriptions: "MERN Stack",
+    techdescriptions: "Next.js FullStack, postgresql, prisma, api development, JWT authentication, axios, tailwindcss and internationalization.",
   },
 ];
