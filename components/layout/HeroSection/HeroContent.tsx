@@ -18,7 +18,7 @@ const LeftContent: React.FC = () => {
       </h1>
       <p className=" max-w-[640px] mb-[55px] leading-[35px] text-grayColor">
         IT company dedicated to delivering innovative solutions in web
-        development technologies, and DevOps. At Geeks Vission, we thrive on
+        development technologies, and DevOps. At Geeks Vision, we thrive on
         tackling complex business challenges with precision and efficiency.
       </p>
       <div

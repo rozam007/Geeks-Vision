@@ -220,8 +220,8 @@ export interface ModalItems {
   modalImage: StaticImageData;
   firstheading: string;
   overviewdescritpion: string;
-  secondheading: string;
-  featuresdescription: string;
+  // secondheading: string;
+  // featuresdescription: string;
   thirdheading: string;
   techdescriptions: string;
 }

@@ -13,7 +13,7 @@ const Copyright = () => {
         <p className="mb-0 font-normal text-sm text-grayColor">
           © Copyright {year}{" "}
           <span className="font-bold text-whiteColor cursor-pointer transition-colors duration-500 ease-in-out hover:text-themeColor">
-            Geeks Vission
+            Geeks Vision
           </span>
         </p>
       </div>

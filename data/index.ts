@@ -28,9 +28,11 @@ import project2 from "/public/project02.svg";
 import project3 from "/public/project03.svg";
 import project4 from "/public/project04.svg";
 import project5 from "/public/project05.svg";
-import btms from "/public/btms.png"
-import carsale from "/public/carsale.png"
-import scoprichie from "/public/scoprichiethumbnail.png"
+import btms from "/public/btms.svg"
+import carsale from "/public/carsale.svg"
+import scoprichie from "/public/scoprichiethumbnail.svg"
+import carsaleBackend from "/public/carsaleBackend.svg"
+import carsaleAdmin from "/public/carsaleAdmin.svg"
 
 // import model1 from "/public/model01.svg";
 // import model2 from "/public/model02.svg";
@@ -290,8 +292,8 @@ export const clients = [
     id: 1,
     rating: 5,
     paragraph:
-      "“One of the best developers I have ever worked with. Very talented, fast-responsive, and with great performance. If you're looking for a long-term, stable developer for your project, don't hesitate to hire Geeks Vission! We'll definitely work with them again!”",
-    name: "Brian Irving",
+      "“One of the best developers I have ever worked with. Very talented, fast-responsive, and with great performance. If you're looking for a long-term, stable developer for your project, don't hesitate to hire Geeks Vision! We'll definitely work with them again!”",
+    name: "Michael Johnson",
     company: "",
     date: "May 9, 2023",
     time: "10:35 PM",
@@ -300,8 +302,8 @@ export const clients = [
     id: 2,
     rating: 4,
     paragraph:
-      "“Geeks Vission completed the project 100%. They provided great solutions and were incredibly resourceful. A clever and reliable team!”",
-    name: "Dandi Fandes",
+      "“Geeks Vision completed the project 100%. They provided great solutions and were incredibly resourceful. A clever and reliable team!”",
+    name: "Emily Davis",
     company: "",
     date: "October 15, 2023",
     time: "8:00 AM",
@@ -310,9 +312,9 @@ export const clients = [
     id: 3,
     rating: 5,
     paragraph:
-      "“I had the honor to work with Geeks Vission for developing my web app, and I couldn’t be happier. The team combines technical and business skills, making them ideal for any project. They went above and beyond, offering suggestions and delivering more than promised. Communication was excellent, availability was unmatched, and they maintained complete honesty throughout. Finding a team like Geeks Vission, with such skilled backend developers, is rare. Beyond their expertise, they’re just great human beings. I wholeheartedly recommend them. You won’t be disappointed! I hope my project succeeds so I can work with them again. Thanks for everything!”",
-    name: "Marco Tusa",
-    company: "CEO Flume",
+      "“I had the honor to work with Geeks Vision for developing my web app, and I couldn’t be happier. The team combines technical and business skills, making them ideal for any project. They went above and beyond, offering suggestions and delivering more than promised. Communication was excellent, availability was unmatched, and they maintained complete honesty throughout. Finding a team like Geeks Vision, with such skilled backend developers, is rare. Beyond their expertise, they’re just great human beings. I wholeheartedly recommend them. You won’t be disappointed! I hope my project succeeds so I can work with them again. Thanks for everything!”",
+    name: "Christopher Miller",
+    company: "",
     date: "Feb 23, 2024",
     time: "1:15 PM",
   },
@@ -320,7 +322,7 @@ export const clients = [
   //   id: 4,
   //   rating: 4,
   //   paragraph:
-  //     "“Geeks Vission delivered exceptional Solidity work for our company. The team is sharp and not only followed the architecture for a complex workflow smart contract but also made valuable improvements. The project involved partial ownership requiring approval from a third-party legal entity, and they handled it seamlessly. We will definitely seek their guidance for future smart contract and blockchain projects!”",
+  //     "“Geeks Vision delivered exceptional Solidity work for our company. The team is sharp and not only followed the architecture for a complex workflow smart contract but also made valuable improvements. The project involved partial ownership requiring approval from a third-party legal entity, and they handled it seamlessly. We will definitely seek their guidance for future smart contract and blockchain projects!”",
   //   name: "William Dovrak",
   //   company: "CEO MVP Eng",
   //   date: "Feb 23, 2024",
@@ -330,8 +332,8 @@ export const clients = [
     id: 5,
     rating: 5,
     paragraph:
-      "“All work was completed successfully. It was a pleasure working with Geeks Vission—a team of true professionals. Looking forward to working together again soon!”",
-    name: "Bounty Portals",
+      "“All work was completed successfully. It was a pleasure working with Geeks Vision team of true professionals. Looking forward to working together again soon!”",
+    name: "Olivia Anderson",
     company: "",
     date: "Feb 23, 2024",
     time: "1:15 PM",
@@ -340,8 +342,8 @@ export const clients = [
     id: 6,
     rating: 4,
     paragraph:
-      "“This is my second time working with Geeks Vission, and they always deliver excellent results. Highly recommended!”",
-    name: "Fernando Chandra",
+      "“This is my second time working with Geeks Vision, and they always deliver excellent results. Highly recommended!”",
+    name: "Daniel Thompson",
     company: "",
     date: "Feb 27, 2024",
     time: "3:15 PM",
@@ -350,8 +352,8 @@ export const clients = [
     id: 7,
     rating: 5,
     paragraph:
-      "“Geeks Vission truly understood my requirements and delivered fast. I highly recommend working with them!”",
-    name: "Fernando Chandra",
+      "“Geeks Vision truly understood my requirements and delivered fast. I highly recommend working with them!”",
+    name: "Ethan Reynolds",
     company: "",
     date: "Feb 23, 2024",
     time: "1:15 PM",
@@ -375,13 +377,27 @@ export const projects = [
   },
   {
     id: 3,
+    image: carsaleAdmin,
+    title: "Web Application",
+    projectname: "Carsale Admin",
+    icon: arrowRight,
+  },
+  {
+    id: 4,
+    image: carsaleBackend,
+    title: "Web Application",
+    projectname: "Carsale Backend",
+    icon: arrowRight,
+  },
+  {
+    id: 5,
     image: carsale,
     title: "Web3 Blockchain",
     projectname: "Initial Coin Offering",
     icon: arrowRight,
   },
     {
-    id: 4,
+    id: 6,
     image: carsale,
     title: "Web Application",
     projectname: "Investigation App",
@@ -412,8 +428,28 @@ export const modal = [
     thirdheading: "Technologies",
     techdescriptions: "Next.js, React.js, TailwindCSS, React Redux, React Queries, React Hook Forms, JWT authentication, Cloudinary for images and optimized API calls for performance.",
   },
-  {
+    {
     id: 3,
+    modalImage: carsaleAdmin,
+    firstheading: "Overview",
+    overviewdescritpion: "The Carsale Admin Panel enables seamless management of showrooms, vehicles, and users. Admins can create, update, and delete showrooms, manage vehicle listings, and handle users. Secure authentication ensures controlled access.",
+    // secondheading: "Features",
+    // featuresdescription: "Good, healthy and fit",
+    thirdheading: "Technologies",
+    techdescriptions: "Next.js, React.js, shadcn/ui, TailwindCSS, Axios, React Queries, React Hook Forms, JWT, Cloudinary, CI/CD, GitHub Actions, Nginx and Ubuntu."
+  },
+   {
+    id: 4,
+    modalImage: carsaleBackend,
+    firstheading: "Overview",
+    overviewdescritpion: "The Carsale API Backend powers the platform, handling authentication, data operations, and business logic via secure REST APIs. It supports OTP-based user authentication, JWT for admins, and CRUD operations for showrooms, vehicles, wishlists, and reviews. Built with Nest.js, Prisma, and PostgreSQL, it ensures scalability and security.",
+    // secondheading: "Features",
+    // featuresdescription: "Good, healthy and fit",
+    thirdheading: "Technologies",
+    techdescriptions: " Nest.js, Node.js, PostgreSQL, Prisma, Swagger, JWT, Cloudinary, Git, Github Actions, CI/CD, Nginx, Ubuntu."
+  },
+  {
+    id: 5,
     modalImage: model6,
     firstheading: "Overview",
     overviewdescritpion: "The website presale.blockrithms.com is a Web3-based ICO (Initial Coin Offering) platform designed for token presales. It allows users to participate in early-stage fundraising by connecting their crypto wallets and purchasing tokens before public listing. The platform focuses on decentralization, transparency, and accessibility, offering a streamlined interface for investors to securely contribute using blockchain technology. Its purpose is to support project launches by providing early supporters with token allocations, while leveraging smart contracts to ensure trust, automation, and secure transactions throughout the presale process.",
@@ -423,7 +459,7 @@ export const modal = [
     techdescriptions: "React.js, tailwindcss, wagmi, web3, solidity and smart contract.",
   },
   {
-    id: 4,
+    id: 6,
     modalImage: scoprichie,
     firstheading: "Overview",
     overviewdescritpion: "The website Scoprichie (by Tarricone Investigazioni) showcases a professional private investigation service specializing in online identity verification. Active since 1978, the agency blends decades of investigative experience with modern digital intelligence tools like OSINT and SOCMINT. It targets cases such as romance scams, grooming risks, suspected infidelity, double lives, or reputation concerns. The process is simple: secure online payment, a confidential questionnaire, digital contract signing, and delivery of a detailed encrypted report within 24–48 hours. With over 5,000 cases resolved, 98% client satisfaction, and 24/7 support, the service emphasizes discretion, reliability, and confidentiality, currently offered at a promotional rate of €380 (VAT included).",
@@ -431,5 +467,5 @@ export const modal = [
     // featuresdescription: "Good, healthy and fit",
     thirdheading: "Technologies",
     techdescriptions: "Next.js FullStack, postgresql, prisma, api development, JWT authentication, axios, tailwindcss and internationalization.",
-  },
+  }
 ];

@@ -140,13 +140,13 @@ const Modal: React.FC<ModalProps> = ({ slideId, items, isOpen, onClose }) => {
                   </p>
                 </div>
               )}
-              {activeTab === 2 && (
+              {/* {activeTab === 2 && (
                 <div>
                   <p className="font-light text-xs sm:text-[15px] md:text-base leading-8 tracking-[.03em] text-paraColor mb-0">
                     {item.featuresdescription}
                   </p>
                 </div>
-              )}
+              )} */}
               {activeTab === 3 && (
                 <div>
                   <p className="font-light text-xs sm:text-[15px] md:text-base leading-8 tracking-[.03em] text-paraColor mb-0">

@@ -7,8 +7,11 @@ import AOSInitializer from "@/components/common/AOSInitializer";
 const saira = Saira({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Geeks Vission",
+  title: "Geeks Vision",
   description: "Blockrithm's Portfolio",
+  icons: {
+    icon: "/favicon.ico"
+  }
 };
 
 export default function RootLayout({
