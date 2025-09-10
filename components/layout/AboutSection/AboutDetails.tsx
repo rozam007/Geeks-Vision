@@ -21,7 +21,15 @@ const AboutBottom = () => {
           <Image src={btmVector} alt="" className=" absolute top-0 right-0" />
         </div>
         <div className="logo mb-[25px]">
-          <Image src={title} alt="LOGO TEXT" width={205} />
+          {/* <Image src={title} alt="LOGO TEXT" width={205} /> */}
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="300" height="120" role="img" aria-label="Geeks Vision">
+            <title>Geeks Vision</title>
+            <rect width="100%" height="100%" fill="transparent" />
+            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+                  fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="70" font-weight="600">
+              Geeks Vision
+            </text>
+          </svg>
         </div>
         <h4 className="font-medium text-[20px] sm:text-[24px] leading-[1.46] mb-[25px]">
           Best Creative IT Agency And Solutions <br />
